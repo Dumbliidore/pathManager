@@ -1,0 +1,11 @@
+v
+.history
+output
+.vscode
+.venv
+__pycache__
+tests
+pack.json
+README.docx
+data.db
+todo.txt

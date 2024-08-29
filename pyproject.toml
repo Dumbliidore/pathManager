@@ -1,0 +1,25 @@
+[project]
+description = "Effortlessly organize server paths by project and data type with our intuitive management tool."
+name = "pathManager"
+version = "1.0.0"
+authors = [{ name = "Dumbliidore", email = "2361018131@qq.com" }]
+dependencies = [
+    "customtkinter>=5.2.2",
+    "aiosql>=10.2",
+    "CTKMessagebox>=2.7",
+    "CTkMenuBar>=0.8",
+    "xlsxwriter>=3.2.0",
+    "python-calamine>=0.2.2",
+    "pywinstyles>=1.8",
+    "pystray>=0.19.5",
+]
+requires-python = "==3.8.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = ["auto-py-to-exe>=2.44.1"]
